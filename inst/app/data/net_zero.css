@@ -1,0 +1,207 @@
+		body {
+			
+			
+		   font-family: 'Open Sans', sans-serif;
+		  font-size: 12px;
+		  font-weight: 400;
+		  color: #0B0C0C;
+		  text-align: left;
+		}	
+		
+		.link {
+		  fill: none;
+		  
+		}
+
+    .arc_link {
+		  fill: none;
+		  
+		}
+.ticks {
+  font:  'Open Sans';
+  color: #0B0C0C;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: #000;
+  stroke-opacity: 0.3;
+  stroke-width: 10px;
+}
+
+.track-inset {
+  stroke: #ddd;
+  stroke-width: 8px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  cursor: crosshair;
+}
+.reset {
+	cursor: pointer;
+}
+.handle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25px;
+}
+
+diagnostic-table {
+	border-collapse:collapse;
+	background-color:#F8F8F8;
+	overflow-y : auto;
+	table-layout:fixed;
+}
+
+		svg {
+			
+			
+		   font-family: 'Open Sans', sans-serif;
+		  font-size: 12px;
+		  font-weight: 400;
+		  color: #0B0C0C;
+		  text-align: left;
+		}	
+
+text.table-title {    
+      text-anchor : left;
+      font-family : Arial;
+      font-weight : bold;
+      font-size : 16px;
+}
+
+th.Comments {
+  width: 70%; 
+}
+
+th.id {
+  width: 10%; 
+}
+
+
+th {
+	font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-bottom: thin solid #8A8A8A;
+  text-align: left;
+  
+}
+
+
+td {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: regular;  
+  font-size: 12px;
+  padding: 3px 10px;
+  border-bottom: thin solid #8A8A8A;
+  text-align: left;
+}
+
+
+.govuk-select {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 12px;
+   
+    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 30px;
+    height: 2rem;
+    padding: 5px;
+    border: 2px solid #0b0c0c;
+    color: #0b0c0c;
+    background-color: #fff
+}
+
+
+.govuk-select:focus {
+    outline: 3px solid #fd0;
+    outline-offset: 0;
+    -webkit-box-shadow: inset 0 0 0 2px;
+    box-shadow: inset 0 0 0 2px
+}
+
+.govuk-select option:active,.govuk-select option:checked,.govuk-select:focus::-ms-value {
+    color: #fff;
+    background-color: #1d70b8
+}
+
+.govuk-select--error {
+    border-color: #d4351c
+}
+
+.govuk-select--error:focus {
+    border-color: #0b0c0c
+}
+
+
+.change-button {
+        display:inline-block;
+        float:right;
+    }
+
+.change-input-list {
+   line-height:33px;
+        padding:10 5px;
+        border-bottom:1px ridge #aaa;
+        margin:0;
+    }
+
+.change-main-list1 {
+   	line-height:12px;
+ 	font-size: 10px;
+        padding:10 5px;
+        border-bottom:1px ridge #aaa;
+        margin:0;
+    }
+
+.change-main-list2 {
+   	line-height:18px;
+	font-size: 12px;
+        padding:10 1px;
+        margin:0;
+    }
+marker#child {
+  fill: red;
+}
+	
+node.selected circle {
+  fill: red;
+  stroke-width: 1.5px;
+}
+
+ node.selected_target circle {
+  fill: pink;
+  stroke-width: 1.5px;
+}
+
+
+line.new_line {
+  stroke: yellow;
+  stroke-opacity: .8;
+  stroke-width: 6px;
+}
+
+line.selected {
+  stroke: red;
+  stroke-opacity: 1;
+}
+
+
+input, label {
+    display:block;
+}
