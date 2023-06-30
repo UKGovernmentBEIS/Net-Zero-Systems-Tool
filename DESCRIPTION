@@ -1,0 +1,28 @@
+Package: NetZeroSystemsTool
+Title: Net Zero Systems Tool
+Version: 0.0.0.9000
+Authors@R: person('Greenway', 'Patrick', email = 'patrick.greenway@beis.gov.uk', role = c('cre', 'aut'))
+Description: Net Zero Systems Tool.
+License: What license is it under?
+Imports: 
+    assertthat,
+    config,
+    DBI,
+    devtools,
+    dplyr,
+    DT,
+    ggplot2,
+    golem,
+    grDevices,
+    htmlwidgets,
+    jsonlite,
+    magrittr,
+    odbc,
+    r2d3,
+    shiny,
+    shinydashboard,
+    utils,
+    webshot
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
